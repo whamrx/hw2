@@ -13,4 +13,4 @@ let repeater : policy =
     	(fun m pol -> let p = flood m in <:netkat<if port = $m then $p else $pol>>)
     	all_ports <:netkat<drop>>
 
-let _ = run_static repeater
+(* let _ = run_static repeater *)
